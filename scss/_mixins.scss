@@ -1,0 +1,28 @@
+@mixin block_size{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+@mixin flex_content($content, $items){
+    display: flex;
+    justify-content: $content;
+    align-items: $items;
+}
+@mixin lato_font($size, $weight, $spacing, $height){
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+    color: #262A3F;
+}
+@mixin play_font($size, $weight, $spacing, $height){
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+    color: #262A3F;
+}
